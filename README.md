@@ -71,6 +71,13 @@ After the model gets trained, we will deploy it using <b>Flask web framework</b>
   <li>Loop over the recognized faces and draw bounding boxes to display</li> 
 </ul>
 
+## Run Command
+<ol>
+  <li>Open the directory in cmd.</li>
+  <li><b>Type</b>: python encode_faces.py --dataset dataset --encodings encodings.pickle </li>
+  <li><b>Type</b>: python recognize_faces_image.py --encodings encodings.pickle --image examples/example_1.jpeg </li>
+</ol>
+
 ## Result
 
 Web Application:
